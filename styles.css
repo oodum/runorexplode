@@ -1,0 +1,107 @@
+body{
+  background-color: #b0b0b0;
+}
+
+.background {
+  background-color: #beb0ff;
+  display: inline-block;
+  animation-name: homeone;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  left: 0%;
+  top: 0%;
+  z-index: -5;
+}
+
+.topbar{
+  background-color: #8f8f8f;
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  top: 0px;
+  left: 0px;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.icon{
+  z-index: 3;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.topbarone{
+  background-color: #5c5c5c;
+  display: inline-block;
+  position: relative;
+  width: 10%;
+  height: 50px;
+  top: 5px;
+  border-radius: 50px;
+  transition-duration: 0.5s;
+  padding-right: 5px;
+}
+
+.topbarone:hover{
+  background-color: #9780ff;
+}
+
+.topbaronecontent{
+  display: inline-block;
+  position: absolute;
+  top: 14px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.topbartwo{
+  background-color: #5c5c5c;
+  display: inline-block;
+  position: relative;
+  width: 10%;
+  height: 50px;
+  top: 5px;
+  border-radius: 50px;
+  transition-duration: 0.5s;
+  padding-right: 5px;
+}
+
+.topbartwo:hover{
+  background-color: #9fff80;
+}
+
+.topbartwocontent{
+  display: inline-block;
+  position: absolute;
+  top: 14px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.divanchor{
+  text-decoration: none;
+  color: #000000;
+}
+
+@keyframes homeone {
+  0% {opacity: 0.1;}
+  100% {opacity: 1; height: 100%}
+}
+
+::-webkit-scrollbar {
+  display:none;
+}
