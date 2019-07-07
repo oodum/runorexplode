@@ -114,12 +114,13 @@ body{
   height: 100px;
   border-radius: 50px;
   left: 10px;
-  display: inline-block;
-  transition-duration: 0.3s;
+  display: block;
+  transition-duration: 0.2s;
 }
 
 .creditlogo:hover{
-  opacity: 0.5
+  border-radius: 30px;
+  opacity: 0.8;
 }
 
 @keyframes homeone {
