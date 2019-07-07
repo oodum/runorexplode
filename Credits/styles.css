@@ -1,6 +1,6 @@
 body{
   background-color: #b0b0b0;
-  font-family: Nunito;
+  font-family: Chelsea Market;
 }
 
 .background {
@@ -96,6 +96,30 @@ body{
 .divanchor{
   text-decoration: none;
   color: #000000;
+}
+
+.maincontentone{
+  position: absolute;
+  top: 60px;
+  left: 0px;
+}
+
+.logo-container{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.creditlogo{
+  height: 100px;
+  border-radius: 50px;
+  left: 10px;
+  display: inline-block;
+  transition-duration: 0.3s;
+}
+
+.creditlogo:hover{
+  opacity: 0.5
 }
 
 @keyframes homeone {
