@@ -105,18 +105,56 @@ body{
   width: 100%;
   height: 520px;
   z-index: 2;
-  opacity: 0;
-  animation-name: maincontentone;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-timing-function: cubic-bezier(.16,.57,.15,1.15);
-  animation-delay: 2s;
 }
 
-.logo-container{
+.BoonMoon{
+  opacity: 0;
   position: absolute;
-  left: 10px;
-  top: 10px;
+  animation-name: maincontentone;
+  animation-duration: 1.5s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(.19,.91,.29,1.16);
+}
+
+.CStarLam{
+  opacity: 0;
+  position: absolute;
+  animation-name: maincontentone;
+  animation-duration: 1.5s;
+  animation-delay: 2.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(.19,.91,.29,1.16);
+}
+
+.Oodum{
+  opacity: 0;
+  position: absolute;
+  animation-name: maincontentone;
+  animation-duration: 1.5s;
+  animation-delay: 2.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(.19,.91,.29,1.16);
+}
+
+.Envy{
+  opacity: 0;
+  position: absolute;
+  animation-name: maincontentone;
+  animation-duration: 1.5s;
+  animation-delay: 2.6s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(.19,.91,.29,1.16);
+}
+
+.SuperLean{
+  opacity: 0;
+  position: absolute;
+  animation-name: maincontentone;
+  animation-duration: 1.5s;
+  animation-delay: 2.8s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(.19,.91,.29,1.16);
 }
 
 .creditlogo{
